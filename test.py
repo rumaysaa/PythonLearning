@@ -1,3 +1,4 @@
+
 def mean(value):
     if (type(value) == dict):
         mean = (sum(value.values())) / (len(value))
@@ -9,3 +10,6 @@ d = {"a":24,"b":11,"c":66}
 
 print(mean(list))
 print(mean(d))
+
+
+
